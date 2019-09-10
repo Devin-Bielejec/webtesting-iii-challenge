@@ -1,4 +1,3 @@
-# Testing III
 
 In this project, you will demonstrate proficiency by writing unit tests for an existing React application. Your tests should verify the behavior listed in the _Minimum Viable Product_ section.
 
@@ -17,6 +16,7 @@ You are allowed, and encouraged, to collaborate with your peers while working on
 ## Commits
 
 Please push your code often and use descriptive commit messages, this helps you and your project manager.
+# Testing III
 
 ## Project Description
 
@@ -27,13 +27,12 @@ The requirements are listed under the _Minimum Viable Product_ section below.
 ## Project Set Up
 
 Follow these steps to setup your git _fork_ and _branch_.
-
-- [ ] Fork this repository.
-- [ ] Use GitHub's website to add your project manager as collaborator on **your fork**.
-- [ ] **Clone your forked version** of the repository (**Not Lambda's**!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Commit changes to your `<firstName-lastName>` branch.
-- [ ] Push often to your branch: `git push origin <firstName-lastName>`.
+- [X] Fork this repository.
+- [X] Use GitHub's website to add your project manager as collaborator on **your fork**.
+- [X] **Clone your forked version** of the repository (**Not Lambda's**!).
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Commit changes to your `<firstName-lastName>` branch.
+- [X] Push often to your branch: `git push origin <firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -46,6 +45,7 @@ Follow these steps for completing your project.
 After a set of interviews with the potential users of the solution, we gathered the following information about the desired functionality. Not all the information provided by our clients is relevant to the design of the solution, but it's included to help understand the requirements.
 
 Your job is to write unit tests to ensure that the application behaves as expected.
+
 
 The expected/assumed behavior of the application is listed below.
 

@@ -16,5 +16,17 @@ test("Buttons to close and lock gate exisit", () => {
     expect(closeButton).toHaveTextContent("Close Gate");
 })
 
-test("")
+test("Close button is disabled if gate is locked", () => {
+    const controls = render(<Controls locked={true}/>);
+
+    const closeButton = document.querySelectorAll("button")[1]
+    expect(closeButton).toBeDisabled();
+})
+
+test("Lock button is disabled if gate is open", () => {
+    const controls = render(<Controls closed={false}/>);
+
+    const lockButton = document.querySelectorAll("button")[0]
+    expect(lockButton).toBeDisabled();
+})
 

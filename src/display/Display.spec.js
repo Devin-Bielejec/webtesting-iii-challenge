@@ -5,13 +5,18 @@ import "@testing-library/jest-dom/extend-expect";
 import renderer from "react-test-renderer";
 
 import Display from "./Display";
+import { act } from "react-testing-library";
 
-describe("<Display/>", () => {
-    it("should match snapshot", () => {
-        const tree = renderer.create(<Display/>).toJSON();
+//Gate Exists
+test("Gate is unlocked and open", () => {
+    const display = render(<Display />);
 
-        expect(tree).toMatchSnapshot();
-    });
-});
+    //Check if div is unlocked
+    const gateUnlocked = display.findByText("Unlocked")
+    
+    //Ccheck if div is open
+    const gateOpen = display.findByText("Open");
+})
+
 
 

@@ -69,7 +69,7 @@ The expected/assumed behavior of the application is listed below.
 ### Controls Component
 
 [X] provide buttons to toggle the `closed` and `locked` states.
-- buttons' text changes to reflect the state the door will be in if clicked
+[X] buttons' text changes to reflect the state the door will be in if clicked
 [X] the closed toggle button is disabled if the gate is locked
 [X] the locked toggle button is disabled if the gate is open
 

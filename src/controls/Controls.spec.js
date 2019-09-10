@@ -57,4 +57,3 @@ test("Lock button changes text when clicked", () => {
     const unlockButton = document.querySelectorAll("button")[0];
     expect(unlockButton).toHaveTextContent("Unlock Gate")
 })
-

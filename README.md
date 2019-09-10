@@ -61,10 +61,10 @@ The expected/assumed behavior of the application is listed below.
 ### Display Component
 
 [X] displays if gate is open/closed and if it is locked/unlocked
-- displays 'Closed' if the `closed` prop is `true` and 'Open' if otherwise
-- displays 'Locked' if the `locked` prop is `true` and 'Unlocked' if otherwise
-- when `locked` or `closed` use the `red-led` class
-- when `unlocked` or `open` use the `green-led` class
+[X] displays 'Closed' if the `closed` prop is `true` and 'Open' if otherwise
+[X] displays 'Locked' if the `locked` prop is `true` and 'Unlocked' if otherwise
+[X] when `locked` or `closed` use the `red-led` class
+[X] when `unlocked` or `open` use the `green-led` class
 
 ### Controls Component
 
